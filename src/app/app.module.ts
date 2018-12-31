@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SpaModule } from '../app/spa/spa.module';
+import { SpaModule } from '../spa/spa.module';
 
 @NgModule({
   declarations: [

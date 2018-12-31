@@ -4,8 +4,8 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
     imports: [CommonModule],
-    declarations: [],
-    exports: []
+    declarations: [SpaBodyComponent, SpaContentComponent,SpaHeaderComponent, SpaFooterComponent],
+    exports: [SpaBodyComponent]
 })
 
 export class SpaModule {
