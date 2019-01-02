@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpaFooterComponent implements OnInit {
 
+  title = ' All rights reserved';
+  year = new Date().getFullYear();
+
   constructor() { }
 
   ngOnInit() {
